@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+RewriteRule ^jugador/([0-9]+)$ informacion.php?id=$1
